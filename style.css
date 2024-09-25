@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  min-height: 400px;
+  background-color: #1f2937;
+  color: white;
+  margin: 1opx;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 16px;
+  margin: 10px;
+}
+.nav-links ul {
+  display: flex;
+  gap: 20px;
+}
+.nav-links ul li {
+  list-style: none;
+}
+.nav-links ul li a {
+  text-decoration: none;
+}
+.placeholder {
+  width: 400px;
+  height: 200px;
+  background-color: grey;
+  margin-right: 200px;
+  flex: 1;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.text-left {
+  padding: 30px;
+  flex-wrap: wrap;
+  flex: 1;
+  margin-left: 200px;
+}
+.text-left h1 {
+  font-size: 48px;
+  margin: 10px;
+}
+.text-left p {
+  font-size: 20px;
+  margin: 10px;
+}
+.sign-up {
+  font-size: 30px;
+  padding: 5px;
+  background-color: blue;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin: 10px;
+  width: auto;
+}
+.logo {
+  margin-left: 210px;
+}
+.cont-1,
+.cont-2,
+.cont-3,
+.cont-4 {
+  border: 2px solid blue;
+  height: 200px;
+  width: 200px;
+  border-radius: 10px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  min-height: 300px;
+}
+.info h1 {
+  text-align: center;
+  margin: 10px;
+}
